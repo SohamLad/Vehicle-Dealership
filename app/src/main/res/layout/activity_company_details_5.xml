@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="._5_CompanyDetailActivity">
+
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="136dp"
+        android:text="@string/company_details_contact_email"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="136dp"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:id="@+id/comanyEmailAddress"
+        android:text="@string/company_details_contact_email_address"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="196dp"
+        android:text="@string/company_details_contact_us"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="190dp"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:id="@+id/comanyContactNumber"
+        android:text="@string/company_details_contact_number"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/companyDatailsAddress"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/company_details_address"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textCompanyDetailsAddressLine1"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="280dp"
+        android:text="@string/company_details_addressLine1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textCompanyDetailsAddressLine2"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="335dp"
+        android:text="@string/company_details_addressLine2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textCompanyDetailsAddressLine3"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="385dp"
+        android:text="@string/company_details_addressLine3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+</RelativeLayout>

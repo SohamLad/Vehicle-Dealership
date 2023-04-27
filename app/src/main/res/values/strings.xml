@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Vehicle Dealership</string>
+
+    <string name="splash_screen_title">Vehicle Dealership</string>
+
+    <string name="main_menu_item1">Main Menu</string>
+    <string name="main_menu_item2">All Vehicle</string>
+    <string name="main_menu_item3">Vehicle Not Sold</string>
+    <string name="main_menu_item4">Sold Vehicle</string>
+    <string name="main_menu_item5">Vehicle Specifications</string>
+    <string name="main_menu_item6">Company Details</string>
+    <string name="main_menu_item7">Company Details Modifications</string>
+    <string name="main_menu_item8">Add Vehicle</string>
+    <string name="main_menu_item9">Vehicle Modification</string>
+
+
+    <string name="vehicle_specification_button">Edit</string>
+
+    <string name="company_details_contact_email">Email </string>
+    <string name="company_details_contact_email_address">autoshop@dealer.ca </string>
+    <string name="company_details_contact_us">Contact Us</string>
+    <string name="company_details_contact_number">+1 (768) 309-8824</string>
+    <string name="company_details_address">Address</string>
+    <string name="company_details_addressLine1">2830 Queen Street East,</string>
+    <string name="company_details_addressLine2">Brampton,</string>
+    <string name="company_details_addressLine3">Ontario L6S 6E8</string>
+
+    <string name="company_details_modification_name">Name</string>
+    <string name="company_details_modification_address">Address</string>
+    <string name="company_details_modification_image">Image</string>
+    <string name="company_details_modification_image_button">Upload Image</string>
+    <string name="company_details_modification_button">Submimt</string>
+
+
+
+    <string name="add_vehicle_title">Add Vehicle</string>
+    <string name="add_vehicle_make">Make</string>
+    <string name="add_vehicle_model">Model</string>
+    <string name="add_vehicle_condition">Condition</string>
+    <string name="add_vehicle_engine">Engine</string>
+    <string name="add_vehicle_year">Year</string>
+    <string name="add_vehicle_number_of_doors">Number Of Doors</string>
+    <string name="add_vehicle_price">Price</string>
+    <string name="add_vehicle_color">Color</string>
+    <string name="add_vehicle_image">Image</string>
+    <string name="add_vehicle_image_button">Upload Image</string>
+    <string name="add_vehicle_sold_date">Sold Date</string>
+    <string name="add_vehicle_button">Add</string>
+
+
+    <string name="vehicle_modification_title">Edit Vehicle</string>
+    <string name="vehicle_modification_make">Make</string>
+    <string name="vehicle_modification_model">Model</string>
+    <string name="vehicle_modification_condition">Condition</string>
+    <string name="vehicle_modification_engine">Engine</string>
+    <string name="vehicle_modification_year">Year</string>
+    <string name="vehicle_modification_number_of_doors">Number Of Doors</string>
+    <string name="vehicle_modification_price">Price</string>
+    <string name="vehicle_modification_color">Color</string>
+    <string name="vehicle_modification_image">Image</string>
+    <string name="vehicle_modification_sold_date">Sold Date</string>
+    <string name="vehicle_modification_save_button">Save</string>
+
+
+
+</resources>

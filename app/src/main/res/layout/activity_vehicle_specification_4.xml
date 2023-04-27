@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="._4_VehicleSpecificationActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/vehicleSpecificationImageView"
+                    android:layout_width="410dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="0dp"/>
+
+                <TextView
+                    android:id="@+id/vehicleSpecificationMakeTextView"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:hint="Car Company Name"
+                    android:background="@drawable/border"
+                    android:layout_marginTop="310dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/vehicleSpecificationModelTextView"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:hint="Model"
+                    android:background="@drawable/border"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/vehicleSpecificationConditionTextView"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:hint="Car Condition"
+                    android:background="@drawable/border"
+                    android:layout_marginTop="390dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/vehicleSpecificationEngineTextView"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:hint="Engine"
+                    android:background="@drawable/border"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/vehicleSpecificationYearTextView"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="490dp"
+                    android:background="@drawable/border"
+                    android:hint="Year"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_marginLeft="20dp"
+                    tools:layout_marginTop="470dp"/>
+
+                <TextView
+                    android:id="@+id/vehicleSpecificationNumberOfDoorsTextView"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="530dp"
+                    android:background="@drawable/border"
+                    android:hint="Number Of Doors"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_marginLeft="20dp"
+                    tools:layout_marginTop="510dp"/>
+
+                <TextView
+                    android:id="@+id/vehicleSpecificationPriceTextView"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="570dp"
+                    android:background="@drawable/border"
+                    android:hint="Price"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_marginLeft="20dp"
+                    tools:layout_marginTop="550dp"/>
+
+                <TextView
+                    android:id="@+id/vehicleSpecificationColorTextView"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="610dp"
+                    android:background="@drawable/border"
+                    android:hint="Color"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_marginLeft="20dp"
+                    tools:layout_marginTop="590dp"/>
+
+                <TextView
+                    android:id="@+id/vehicleSpecificationSoldDateTextView"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="650dp"
+                    android:background="@drawable/border"
+                    android:hint="Selling Date"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_marginLeft="20dp"
+                    tools:layout_marginTop="630dp"/>
+
+                <Button
+                    android:id="@+id/vehicleSpecificationEditButton"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="660dp"
+                    android:layout_marginLeft="120dp"
+                    android:text="@string/vehicle_specification_button"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+        </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

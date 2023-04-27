@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.georgiancollege.vehicledealership">
+
+    <uses-permission android:name="android.permission.INTERNET" />                     <!-- Permission for internet -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vehicle_dealership"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/vehicle_dealership"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="._1_AllVehicleActivity"
+            android:exported="true"
+            android:theme="@style/Theme.VehicleDealership" />
+        <activity
+            android:name="._2_VehicleNotSoldActivity"
+            android:exported="true"
+            android:theme="@style/Theme.VehicleDealership" />
+        <activity
+            android:name="._3_SoldVehicleActivity"
+            android:exported="true"
+            android:theme="@style/Theme.VehicleDealership" />
+        <activity
+            android:name="._4_VehicleSpecificationActivity"
+            android:exported="true"
+            android:theme="@style/Theme.VehicleDealership" />
+        <activity
+            android:name="._5_CompanyDetailActivity"
+            android:exported="true"
+            android:theme="@style/Theme.VehicleDealership" />
+        <activity
+            android:name="._6_CompanyDetailModificationActivity"
+            android:exported="true"
+            android:theme="@style/Theme.VehicleDealership" />
+        <activity
+            android:name="._7_AddVehicleActivity"
+            android:exported="true"
+            android:theme="@style/Theme.VehicleDealership" />
+        <activity
+            android:name="._8_VehicleModificationActivity"
+            android:exported="true"
+            android:theme="@style/Theme.VehicleDealership" />
+    </application>
+
+</manifest>

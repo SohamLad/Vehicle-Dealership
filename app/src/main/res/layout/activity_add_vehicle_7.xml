@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="._7_AddVehicleActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/addVehicleTitleTextView"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:text="@string/add_vehicle_title"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginLeft="100dp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="@string/add_vehicle_make"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="10dp"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/addVehicleMakeTextView"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:textSize="18dp"
+                    android:inputType="text"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="100dp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="@string/add_vehicle_model"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="10dp"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/addVehicleModelTextView"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:textSize="18dp"
+                    android:inputType="text"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="150dp"
+                    tools:ignore="MissingConstraints"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="@string/add_vehicle_condition"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="198dp"
+                    android:layout_marginLeft="10dp"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/addVehicleConditionTextView"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:textSize="18dp"
+                    android:inputType="text"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="198dp"
+                    tools:ignore="MissingConstraints"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="@string/add_vehicle_engine"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="245dp"
+                    android:layout_marginLeft="10dp"
+                    tools:ignore="MissingConstraints"/>
+
+                <EditText
+                    android:id="@+id/addVehicleEngineTextView"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="245dp"
+                    tools:ignore="MissingConstraints"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="@string/add_vehicle_year"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="295dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/addVehicleYearTextView"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:textSize="18dp"
+                    android:inputType="number"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="295dp"
+                    tools:ignore="MissingConstraints"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="@string/add_vehicle_number_of_doors"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="345dp"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/addVehicleNumberOfDoorsTextView"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:textSize="18dp"
+                    android:inputType="number"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="345dp"
+                    tools:ignore="MissingConstraints"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="@string/add_vehicle_price"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="390dp"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/addVehiclePriceTextView"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:textSize="18dp"
+                    android:inputType="number"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="390dp"
+                    tools:ignore="MissingConstraints"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="@string/add_vehicle_color"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="445dp"
+                    tools:ignore="MissingConstraints"/>
+
+                <EditText
+                    android:id="@+id/addVehicleColorTextView"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:textSize="18dp"
+                    android:inputType="text"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="445dp"
+                    tools:ignore="MissingConstraints"/>
+
+                <TextView
+                    android:id="@+id/addVehicleImageTextView"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="@string/add_vehicle_image"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="500dp"
+                    tools:ignore="MissingConstraints"/>
+
+                <ImageView
+                    android:id="@+id/uploadedimage"
+                    android:layout_marginTop="500dp"
+                    android:layout_marginLeft="190dp"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:text="Vehicle Image"
+                    android:textSize="23sp" />
+
+                <Button
+                    android:id="@+id/addVehicleImageButton"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="210dp"
+                    android:layout_marginTop="610dp"
+                    android:onClick="onUploadImageClick"
+                    android:text="@string/add_vehicle_image_button"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints,OnClick" />
+
+
+                <Button
+                    android:id="@+id/addVehicleButton"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="650dp"
+                    android:text="@string/add_vehicle_button"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <!--  <TextView
+               android:id="@+id/idTVHeading"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_above="@id/idTVMsg"
+                 android:layout_centerInParent="true"
+                 android:layout_margin="20dp"
+                 android:gravity="center"
+                 android:padding="10dp"
+                 android:text="TextView in Android"
+                 android:textAlignment="center"
+                 android:textColor="@color/black"
+                 android:textSize="20sp"
+                 android:textStyle="bold"
+                 tools:ignore="MissingConstraints" />
+
+             <TextView
+                 android:id="@+id/idTVMsg"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:layout_margin="20dp"
+                 android:gravity="center"
+                 android:padding="10dp"
+                 android:textAlignment="center"
+                 android:textColor="@color/black"
+                 android:textSize="20sp"
+                 android:textStyle="bold"
+                 tools:ignore="MissingConstraints" />-->
+
+        </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
